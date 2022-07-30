@@ -1,0 +1,56 @@
+
+.faq .accordion-flush .accordion-button{
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+}
+.faq .accordion-flush .accordion-item{
+    border: none;
+}
+.faq .accordion-flush .accordion-button:focus{
+    box-shadow: none;
+}
+.faq .accordion-flush .accordion-button:not(.collapsed){
+    box-shadow: none;
+    border: 1px solid rgba(40, 155, 222, 0.1);
+    background: rgba(40, 155, 222, 0.1);
+}
+/* footer social icons*/
+.social-icons {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.social-icons li a {
+    display: inline-block;
+    font-size: 15px;
+    width: 44px;
+    height: 44px;
+    line-height: 46px;
+    text-align: center;
+    border: 2px solid #285da1;
+    background: #285da1;
+    border-radius: 4px;
+    color: #fff;
+    transition: all .3s ease-out 0s;
+}
+.social-icons li a.tw {
+    background: #03a9f4;
+    border-color: #03a9f4;
+}
+.social-icons li a.lin {
+    background: #0a66c2;
+    border-color: #0a66c2;
+}
+.social-icons li a.ins {
+    background: #E4405F;
+    border-color: #E4405F;
+}
+.social-icons li a.tik {
+    background: #ff0050;
+    border-color: #ff0050;
+}
+.social-icons li a:hover {
+    background: transparent;
+    color: #285da1;
+}
+
