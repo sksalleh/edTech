@@ -1,0 +1,6 @@
+@media only screen (max-width: 992px) {
+    .company-logo {
+        display: none;
+        background-color: red;
+    }
+ }
