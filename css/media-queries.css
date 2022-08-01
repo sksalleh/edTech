@@ -1,9 +1,6 @@
 
 
 @media (max-width: 991.98px) {
-    .company-logo {
-        display: none;
-    }
     .subscribe{
         width: 100%;
         text-align: center;
@@ -11,6 +8,8 @@
     }
 }
 
-@media (max-width: 575.98px) { 
-    
+@media (max-width: 1199.98px) { 
+    .company-logo {
+        display: none;
+    }
  }
