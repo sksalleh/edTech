@@ -1,4 +1,8 @@
 
+
+.subscribe{
+    width: 50%;
+}
 .faq .accordion-flush .accordion-button{
     border: 1px solid #dee2e6;
     border-radius: 5px;
