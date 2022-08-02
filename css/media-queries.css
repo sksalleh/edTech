@@ -1,15 +1,56 @@
 
+/* Apply styles starting from medium devices and up to extra large devices */
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    .cardImg, .cardContent{
+        width: 50%;
+    }
+    .cardContent .card-body{
+        padding: 10px;
+    }
+    .cardContent .card-text{
+        font-size: 15px;
+        margin-bottom: 15px;
+    }
+    .cardContent .card-text.price{
+        margin-bottom: 0;
+    }
+ }
 
-@media (max-width: 991.98px) {
+ /* `xl` applies to large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) { 
+    .company-logo {
+        display: none;
+    }
+    .carousel-caption{
+        bottom: 7.25rem;
+    }
+ }
+
+/* `lg` applies to medium devices (tablets, less than 992px) */
+ @media (max-width: 991.98px) {
     .subscribe{
         width: 100%;
         text-align: center;
         padding: 0 50px;
     }
+    section.faq{
+        width: 100% !important;
+    }
+    .carousel-caption{
+        bottom: 4.25rem;
+    }
+    .pc-intro p{
+        padding-left: 1rem !important;
+        padding-right: 1rem !important;
+        margin-left: 1rem !important;
+        margin-right: 1rem !important;
+    }
 }
 
-@media (max-width: 1199.98px) { 
-    .company-logo {
+/* `md` applies to small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) { 
+    header .btn-outline-primary{
         display: none;
     }
+
  }

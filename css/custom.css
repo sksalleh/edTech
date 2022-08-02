@@ -1,7 +1,14 @@
+/* CSS for carousel caption */
+.carousel-caption{
+    bottom: 11.25rem;
+}
+
+/* CSS for redy2join section */
 .subscribe{
     width: 50%;
 }
 
+/* CSS for FAQ section */
 .faq .accordion-flush .accordion-button{
     border: 1px solid #dee2e6;
     border-radius: 5px;
@@ -18,7 +25,7 @@
     background: rgba(40, 155, 222, 0.1);
 }
 
-/* footer social icons*/
+/* CSS for footer social icons*/
 .social-icons {
     list-style: none;
     margin: 0;
